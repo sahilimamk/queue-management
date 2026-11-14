@@ -1,0 +1,221 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  color: #222;
+}
+
+.page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+button {
+  background: #2563eb;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d4ed8;
+}
+
+button.small {
+  margin-left: 10px;
+  padding: 5px 10px;
+}
+
+button.danger {
+  background: #dc2626;
+}
+
+button.danger:hover {
+  background: #b91c1c;
+}
+
+input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  flex: 1;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.tabs {
+  margin: 16px 0;
+  display: flex;
+  gap: 8px;
+}
+
+.tabs button {
+  background: white;
+  color: #222;
+  border: 1px solid #ccc;
+}
+
+.tabs button.active {
+  background: #2563eb;
+  color: white;
+  border-color: #2563eb;
+}
+
+.card {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 16px;
+  align-items: start;
+}
+
+.queue-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+.queue-item.selected {
+  border-color: #2563eb;
+  background: #eff6ff;
+}
+
+.token {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.token .actions {
+  display: flex;
+  gap: 6px;
+}
+
+.token .actions button {
+  background: #e5e7eb;
+  color: #222;
+}
+
+.done-token {
+  color: #777;
+}
+
+.serving {
+  background: #fef3c7;
+  padding: 10px;
+  border-radius: 6px;
+  margin: 12px 0;
+}
+
+.serve-btn {
+  background: #16a34a;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.serve-btn:hover {
+  background: #15803d;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.login-card {
+  width: 320px;
+  text-align: center;
+}
+
+.login-card form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.hint {
+  color: #777;
+  font-size: 13px;
+}
+
+.error {
+  color: #dc2626;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.stat {
+  background: white;
+  padding: 14px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.stat p {
+  margin: 0;
+  color: #666;
+}
+
+.stat h2 {
+  margin: 6px 0 0;
+}
+
+.bar-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.bar-label {
+  width: 120px;
+}
+
+.bar-bg {
+  flex: 1;
+  background: #e5e7eb;
+  height: 18px;
+  border-radius: 4px;
+}
+
+.bar {
+  background: #2563eb;
+  height: 18px;
+  border-radius: 4px;
+}
